@@ -1,0 +1,99 @@
+
+.top-header{
+    /* no need to width bec of adhi 100 undali kabatti*/
+    background-color: black;
+    height: 50px;
+    display: flex;
+    
+}
+.icon-cover{
+    margin-top: -10px;
+
+}
+.icon{
+    color:white;
+    
+}
+.companyName{
+    color: white;
+    margin-left: 10px;
+    font-size: small;
+}
+.tag{
+    font-size: smaller;
+    color:lightgray;
+}
+.header-left{
+    display: flex;
+    width:40%;
+    align-items: center;
+    padding-left: 20px;
+}
+.header-right{
+    padding: 8px;
+    width:60%;
+    display: flex;
+    justify-content: end;
+    
+}
+.btn-editor{
+    margin-right: 6px;
+    height: 32px;
+    padding: 8px;
+    font-size: small;
+    background-color: lightgray;
+    color: white;
+    border: 1px groove gray;
+    border-radius: 2px;
+}
+.cover{
+    display: flex;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    color: white;
+    flex-direction: column;
+}
+.cover-text{
+    font-size: x-large;
+}
+.cover-tag{
+    font-size: smaller;
+    color: lightgray;
+}
+
+.card-body{
+    text-align: center;
+
+}
+.btn-cart{
+    background-color: white;
+    color: gray;
+    border: 1px solid lightgray;
+
+}
+.star{
+    color: gold;
+}
+body{
+    /*indhulo margin yendhuku rasam antte browser lo defalute ga 8px thi
+    thisukunttundhi so andhuke margin thisukunnam*/
+    margin: 0px;   
+}
+.footer{
+    height: 54px;
+    /* edhi google nunchi color shades css  color code we get.*/
+    background-color:#36454F;
+    position: fixed;
+    bottom: 0;
+    color: lightgray;
+    width: 100%;
+    /* aling it anedhi text ni centre lo pedathadhi*/
+    align-items: center;
+    /* display and justify anedhi relevel cor ni middle lo pedathadhi
+    indhulo ye okkati leka poinaya work cheyadu centre lo undadhu text anedhi i mean display undi 
+    justify lekapoina radu complusory rendu undali */
+    justify-content: center;
+    display: flex;
+}
